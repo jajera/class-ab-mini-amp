@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680">
+  <rect width="960" height="680" fill="#fafaf8"/>
+  <text x="28" y="36" font-family="Georgia, serif" font-size="22" fill="#1a1a1a">Class-AB complementary mini amp</text>
+  <text x="28" y="58" font-family="ui-monospace, monospace" font-size="12" fill="#555">Discrete push-pull - BC547 x2, BC557 x1, diode bias</text>
+
+  <!-- rails -->
+  <line x1="60" y1="100" x2="780" y2="100" stroke="#b33" stroke-width="2"/>
+  <text x="790" y="104" font-family="monospace" font-size="14" fill="#b33">V+</text>
+  <line x1="60" y1="520" x2="780" y2="520" stroke="#26a" stroke-width="2"/>
+  <text x="790" y="524" font-family="monospace" font-size="14" fill="#26a">GND</text>
+
+  <!-- input + pot hint -->
+  <text x="24" y="248" font-family="monospace" font-size="13">IN</text>
+  <text x="24" y="266" font-family="monospace" font-size="11" fill="#666">(via B10K)</text>
+  <line x1="90" y1="246" x2="150" y2="246" stroke="#222" stroke-width="2"/>
+  <line x1="150" y1="228" x2="150" y2="264" stroke="#222" stroke-width="2"/>
+  <line x1="162" y1="228" x2="162" y2="264" stroke="#222" stroke-width="2"/>
+  <text x="140" y="218" font-family="monospace" font-size="12">C1</text>
+  <line x1="162" y1="246" x2="240" y2="246" stroke="#222" stroke-width="2"/>
+
+  <!-- R1 -->
+  <line x1="240" y1="100" x2="240" y2="170" stroke="#222" stroke-width="2"/>
+  <rect x="228" y="170" width="24" height="48" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="258" y="200" font-family="monospace" font-size="12">R1</text>
+  <line x1="240" y1="218" x2="240" y2="246" stroke="#222" stroke-width="2"/>
+
+  <!-- Q1 -->
+  <circle cx="320" cy="290" r="34" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="298" y="278" font-family="monospace" font-size="12">Q1</text>
+  <text x="288" y="296" font-family="monospace" font-size="11">BC547</text>
+  <line x1="240" y1="246" x2="288" y2="278" stroke="#222" stroke-width="2"/>
+  <line x1="320" y1="256" x2="320" y2="170" stroke="#222" stroke-width="2"/>
+  <rect x="308" y="122" width="24" height="48" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="338" y="152" font-family="monospace" font-size="12">R2</text>
+  <line x1="320" y1="122" x2="320" y2="100" stroke="#222" stroke-width="2"/>
+  <line x1="320" y1="324" x2="320" y2="400" stroke="#222" stroke-width="2"/>
+  <rect x="308" y="400" width="24" height="48" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="338" y="430" font-family="monospace" font-size="12">R4</text>
+  <line x1="320" y1="448" x2="320" y2="520" stroke="#222" stroke-width="2"/>
+
+  <!-- R3 -->
+  <line x1="240" y1="246" x2="200" y2="246" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="200" y1="246" x2="200" y2="460" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="188" y="460" width="24" height="40" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="218" y="485" font-family="monospace" font-size="12">R3</text>
+  <line x1="200" y1="500" x2="200" y2="520" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- diode bias + JMP -->
+  <line x1="320" y1="190" x2="420" y2="190" stroke="#222" stroke-width="2"/>
+  <polygon points="420,178 448,190 420,202" fill="none" stroke="#222" stroke-width="2"/>
+  <line x1="448" y1="178" x2="448" y2="202" stroke="#222" stroke-width="2"/>
+  <text x="422" y="170" font-family="monospace" font-size="12">D1</text>
+  <line x1="448" y1="190" x2="490" y2="190" stroke="#222" stroke-width="2"/>
+  <circle cx="490" cy="190" r="5" fill="#e67e22"/>
+  <text x="476" y="214" font-family="monospace" font-size="11" fill="#a65">JP1</text>
+  <line x1="490" y1="190" x2="532" y2="190" stroke="#222" stroke-width="2"/>
+  <polygon points="532,178 560,190 532,202" fill="none" stroke="#222" stroke-width="2"/>
+  <line x1="560" y1="178" x2="560" y2="202" stroke="#222" stroke-width="2"/>
+  <text x="534" y="170" font-family="monospace" font-size="12">D2</text>
+  <line x1="560" y1="190" x2="640" y2="190" stroke="#222" stroke-width="2"/>
+  <line x1="640" y1="190" x2="640" y2="360" stroke="#222" stroke-width="2"/>
+
+  <!-- Q2 -->
+  <circle cx="520" cy="290" r="34" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="498" y="278" font-family="monospace" font-size="12">Q2</text>
+  <text x="488" y="296" font-family="monospace" font-size="11">BC547</text>
+  <line x1="448" y1="190" x2="500" y2="265" stroke="#222" stroke-width="2"/>
+  <line x1="520" y1="256" x2="520" y2="100" stroke="#222" stroke-width="2"/>
+  <line x1="520" y1="324" x2="520" y2="390" stroke="#222" stroke-width="2"/>
+
+  <!-- Q3 -->
+  <circle cx="640" cy="390" r="34" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="618" y="378" font-family="monospace" font-size="12">Q3</text>
+  <text x="608" y="396" font-family="monospace" font-size="11">BC557</text>
+  <line x1="640" y1="424" x2="640" y2="520" stroke="#222" stroke-width="2"/>
+  <line x1="606" y1="390" x2="520" y2="390" stroke="#222" stroke-width="2"/>
+
+  <!-- output -->
+  <line x1="520" y1="390" x2="720" y2="390" stroke="#222" stroke-width="2"/>
+  <line x1="720" y1="374" x2="720" y2="406" stroke="#222" stroke-width="2"/>
+  <line x1="732" y1="374" x2="732" y2="406" stroke="#222" stroke-width="2"/>
+  <text x="708" y="364" font-family="monospace" font-size="12">C2</text>
+  <line x1="732" y1="390" x2="800" y2="390" stroke="#222" stroke-width="2"/>
+  <text x="760" y="378" font-family="monospace" font-size="13">SPKR+</text>
+  <line x1="800" y1="390" x2="800" y2="520" stroke="#222" stroke-width="2"/>
+  <text x="810" y="460" font-family="monospace" font-size="13">SPKR-</text>
+
+  <!-- C3 bypass -->
+  <line x1="700" y1="100" x2="700" y2="140" stroke="#222" stroke-width="2"/>
+  <line x1="688" y1="140" x2="712" y2="140" stroke="#222" stroke-width="2"/>
+  <line x1="688" y1="150" x2="712" y2="150" stroke="#222" stroke-width="2"/>
+  <line x1="700" y1="150" x2="700" y2="520" stroke="#222" stroke-width="2"/>
+  <text x="718" y="148" font-family="monospace" font-size="12">C3</text>
+
+  <text x="28" y="580" font-family="monospace" font-size="12" fill="#444">JP1 = jumper between D1 and D2 (required). R3 = bias/feedback  confirm value on the board.</text>
+  <text x="28" y="604" font-family="monospace" font-size="12" fill="#444">Off-board: 9V battery, rocker on V+, B10K volume, 3.5 mm jack, 4 ohm speaker.</text>
+  <text x="28" y="640" font-family="monospace" font-size="12" fill="#666">Power: battery+ through rocker to V+; battery- to GND.</text>
+</svg>
