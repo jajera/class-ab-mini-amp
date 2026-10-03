@@ -62,7 +62,7 @@ Headers on the board: **SPKR**, **IN**, **V+ / V−** — all on removable pins.
 9V −  ────────────────────► board GND
 ```
 
-**Input / volume**
+**Input / volume** — pot and jack wiring:
 
 ```text
 3.5 mm tip     ──► B10K pot (hot)
