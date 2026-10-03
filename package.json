@@ -1,0 +1,17 @@
+{
+  "name": "class-ab-mini-amp",
+  "private": true,
+  "type": "module",
+  "description": "Class-AB mini amp project note — Eleventy + Patina",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "preview": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
